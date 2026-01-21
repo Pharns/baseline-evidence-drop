@@ -38,10 +38,32 @@ flowchart LR
   Report --> Archive[Evidence Bundle]
 ```
 
+## Threat Model (Redacted)
+
+```mermaid
+flowchart LR
+  User[User Consent] --> Collector
+  Collector --> Evidence[(Evidence Bundle)]
+  Evidence --> Audit[Audit Log]
+```
+
+## Compliance Mapping (Sample)
+
+| Control | Evidence Signal | Purpose |
+| --- | --- | --- |
+| SOC2 CC7 | Hash manifest | Integrity of evidence |
+| NIST PR.DS | Encryption status | Data protection |
+| ISO A.12 | Log records | Auditability |
+
 ## Example Outputs
 - `examples/manifest.example.json`
 - `examples/hashes.txt`
 - `examples/run.log`
+
+## Key Decisions
+- Explicit consent before collection.
+- Hashing + manifest for integrity.
+- Redacted public outputs to protect IP and privacy.
 
 ## Scope and Redaction
 - No payloads, secrets, or client artifacts.
