@@ -1,5 +1,9 @@
 # Baseline Evidence Drop (Public Overview)
 
+![Status](https://img.shields.io/badge/status-public--safe-brightgreen)
+![Scope](https://img.shields.io/badge/scope-redacted-blue)
+![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+
 Consent-driven evidence collection for GRC assessments. This public repo is a redacted overview focused on evidence workflows and control mapping, without proprietary automation logic or client data.
 
 ## Scope and Redaction
