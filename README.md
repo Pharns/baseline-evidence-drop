@@ -34,6 +34,16 @@ Consent-driven evidence collection for GRC assessments. This public repo is a re
   run.log
 ```
 
+## Evidence Flow (Redacted)
+
+```mermaid
+flowchart LR
+  Consent[Consent Banner] --> Collect[Collect Artifacts]
+  Collect --> Hash[Hash + Manifest]
+  Hash --> Report[Summary Report]
+  Report --> Archive[Evidence Bundle]
+```
+
 ## Example Outputs
 - `examples/manifest.example.json`
 - `examples/hashes.txt`
