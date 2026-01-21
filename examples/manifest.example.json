@@ -1,0 +1,18 @@
+{
+  "run_id": "demo-2026-01-21",
+  "collector": "baseline-evidence-drop",
+  "consent": "affirmed",
+  "artifacts": [
+    {
+      "name": "os-version.txt",
+      "hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+      "controls": ["NIST.PR.DS", "ISO.A.8"]
+    },
+    {
+      "name": "encryption-status.txt",
+      "hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+      "controls": ["SOC2.CC6", "NIST.PR.DS", "ISO.A.10"]
+    }
+  ],
+  "timestamp": "2026-01-21T12:00:00Z"
+}
