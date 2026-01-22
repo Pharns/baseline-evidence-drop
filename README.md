@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/status-public--safe-brightgreen)
 ![Scope](https://img.shields.io/badge/scope-redacted-blue)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+![CI/CD](https://img.shields.io/badge/ci%2Fcd-implemented-informational)
+![Demo Outputs](https://img.shields.io/badge/demo-outputs-blue)
 
 Consent-driven evidence collection for GRC assessments. This public repo is a redacted overview focused on evidence workflows and control mapping, without proprietary automation logic or client data.
 
@@ -59,6 +61,7 @@ flowchart LR
 - `examples/manifest.example.json`
 - `examples/hashes.txt`
 - `examples/run.log`
+- `examples/evidence-summary.md`
 
 ## Key Decisions
 - Explicit consent before collection.
